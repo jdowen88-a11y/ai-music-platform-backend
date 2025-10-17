@@ -1,0 +1,14 @@
+# Navigate to your project folder (where your FastAPI files live)
+cd path/to/your/backend
+
+# Initialize git if you haven’t already
+git init
+git add .
+git commit -m "Initial backend commit"
+
+# Link your GitHub repo
+git remote add origin https://github.com/jdowen88-a11y/ai-music-platform-backend.git
+
+# Push your backend to GitHub
+git branch -M main
+git push -u origin main
